@@ -8,6 +8,7 @@ namespace methods
         {
 
             Create("sravya", "guddati");
+            Print();
             Sub(56, 45);
             String result = Names("sravya", "Guddati");
             Console.WriteLine(result);
@@ -21,6 +22,10 @@ namespace methods
             
             Console.WriteLine(a + b);
 
+        }
+        public static void Print()
+        {
+            Console.WriteLine("i am using public");
         }
 
         //using return
